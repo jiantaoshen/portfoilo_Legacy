@@ -1,0 +1,51 @@
+{
+    "about": "Om mig",
+    "description": "Jag är en passionerad fullstackutvecklare med erfarenhet av att bygga dynamiska och responsiva webbapplikationer. Jag har en stark bakgrund inom både frontend- och backendutveckling, samt maskininlärning och AI. Jag strävar alltid efter att lära mig nya teknologier och förbättra mina färdigheter.",
+    "skills": "Färdigheter",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "ML": "Maskininlärning och AI",
+    "tools": "Verktyg och plattformar",
+    "Languages": "Språk",
+    "education": "Utbildning",
+    "frontendSkills": [
+        "JavaScript / TypeScript",
+        "React (Vite, React Router)",
+        "Tailwind CSS",
+        "HTML / CSS"
+    ],
+    "backendSkills": [
+        "C# / .NET",
+        "SQL",
+        "Entity Framework Core"
+    ],
+    "toolsSkills": [
+        "Git / Github",
+        "Vercel",
+        "Microsoft Azure"
+    ],
+    "MLSkills": [
+        "Python",
+        "TensorFlow",
+        "PyTorch"
+    ],
+    "languagesSkills": [
+        "Kinesiska (Modersmål)",
+        "Svenska (B2)",
+        "Engelska (B2)"
+    ],
+    "educationDetails": [
+        {
+            "title": "Webbutvecklingskurs, Lexicon AB (Mar 2026 - Nuvarande)",
+            "description": "Lär mig utveckling av webbapplikationer och molntjänster."
+        },
+        {
+            "title": "Arbetsmarknadsaktiviteter + språkkurser (Jul 2024 - Mar 2026)",
+            "description": "Deltog i olika aktiviteter för att förbättra anställningsbarhet och språkkunskaper."
+        },
+        {
+            "title": "Master of Science in Engineering (Robotics), Mälardalens universitet (Sep 2019 - Jul 2024)",
+            "description": "Lärde mig robotik, inbyggda system, maskininlärning och artificiell intelligens."
+        }
+    ]
+}

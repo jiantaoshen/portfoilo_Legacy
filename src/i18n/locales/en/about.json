@@ -1,0 +1,52 @@
+{
+    "about": "About Me",
+    "description": "I am a passionate full-stack developer with experience in building dynamic and responsive web applications. I have a strong background in both frontend and backend development, as well as machine learning and AI. I am always eager to learn new technologies and improve my skills.",
+    "skills": "Skills",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "tools": "Tools & Platforms",
+    "ML": "ML & AI",
+    "Languages": "Languages",
+    "education": "Education",
+    "frontendSkills": [
+        "JavaScript / TypeScript",
+        "React (Vite, React Router)",
+        "Tailwind CSS",
+        "HTML / CSS"
+    ],
+    "backendSkills": [
+        "C# / .NET",
+        "SQL",
+        "Entity Framework Core"
+    ],
+    "toolsSkills": [
+        "Git / Github",
+        "Vercel",
+        "Microsoft Azure"
+    ],
+    "MLSkills": [
+        "Python",
+        "TensorFlow",
+        "PyTorch"
+    ],
+    "languagesSkills": [
+        "Chinese (Native)",
+        "English (B2)",
+        "Swedish (B2)"
+    ],
+    "educationDetails": [
+        {
+            "title": "Web development course, Lexicon AB (Mar 2026 - Present)",
+            "description": "Learning development of web applications and cloud services."
+        },
+        {
+            "title": "Labor market activities + language courses (Jul 2024 - Mar 2026)",
+            "description": "Participated in various activities to improve employability and language skills."
+        },
+        {
+            "title": "Master of Science in Engineering (Robotics), Mälardalen University (Sep 2019 - Jul 2024)",
+            "description": "Learned robotics, embedded systems, machine learning, and artificial intelligence."
+        }
+    ]
+
+}
