@@ -44,7 +44,7 @@ export default function About() {
           <ul className="list-disc mt-[var(--space-1)] pl-[var(--space-2)] space-y-[var(--space-1)]">
             <li>Git / GitHub</li>
             <li>Vercel</li>
-            <li>Firebase</li>
+            <li>Microsoft Azure</li>
           </ul>
         </div>
 

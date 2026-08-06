@@ -39,9 +39,6 @@ export default function Home() {
           <div
             key={project.id}
             className={card["project-card"]}
-            onClick={() =>
-              navigate(`/projects/${project.slug}`)
-            }
           >
 
             {/* CONTENT */}
