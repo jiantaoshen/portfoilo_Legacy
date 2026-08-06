@@ -1,7 +1,11 @@
 # Personal CV Website (React)
 
 ## Description
-This is my personal portfolio website built with React. It showcases my projects, skills, and background through a clean and responsive user interface.
+My personal portfolio website built with React. It showcases my projects, skills, and background through a clean and responsive user interface.
+
+## Updates (2026 August)
+- Remove pages about the detail of project. (Redirect to pages on Github instead)
+- Small UI changes
 
 ## Set up
 1. Clone the project
@@ -17,14 +21,9 @@ This is my personal portfolio website built with React. It showcases my projects
 - Clean and simple UI design
 
 ## Tech Stack
-- React
-- React Router
-- Vite
-- Typescript *
-- CSS
+- React (Vite, React Router)
+- Typescript
 - Tailwind CSS
-
-*I converted this project from JavaScript to TypeScript because TypeScript improves code safety by catching errors before runtime and does not affect performance since it compiles to JavaScript. However, it does not improve cybersecurity security.
 
 ## Routes
 The project structure stores page, style and layout into different folders to improve maintainability and scalability.
@@ -34,15 +33,12 @@ The project structure stores page, style and layout into different folders to im
 | `/about` | `about.jsx` |
 | `/projects` | `projects.jsx` |
 | `/` | `home.jsx` |
-| `/projects/:id` | `projectDetail.jsx` |
 
 This structure makes the project easier to maintain and navigate. When updates are needed, it is easier to identify where changes should be made.
 
 `App.jsx` is used as the main routing component, while global stylesheets called `theme.css` and `global.css` manages the overall website theme and styling.
 
 ## Future Improvements
-- Improve responsive design for more screen sizes
-- Improve accessibility
 - Add Swedish and Chinese language support
 
 ## Q&A

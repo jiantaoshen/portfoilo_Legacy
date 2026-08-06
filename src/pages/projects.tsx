@@ -1,24 +1,19 @@
-import { useNavigate } from "react-router-dom";
 import card from "../styles/components/card.module.css";
 import { projects } from "../projectMetaData/projectsData";
 
 export default function Projects() {
-  const navigate = useNavigate();
 
   return (
     <>
       <h1>Projects</h1>
 
-      <div className="grid grid-cols-[repeat(auto-fit,minmax(260px,1fr))] gap-[var(--space-4)]">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-[var(--space-4)]">
 
         {/* PROJECT CARDS WITH NAVIGATION */}
         {projects.map((project) => (
           <div
             key={project.id}
             className={card["project-card"]}
-            onClick={() =>
-              navigate(`/projects/${project.slug}`)
-            }
           >
 
             {/* IMAGE */}
@@ -42,7 +37,33 @@ export default function Projects() {
                   </span>
                 ))}
               </div>
-              
+
+              <hr className={card["divider"]} />
+
+              {/* LINK */}
+              <div className={card["tag-group"]}>
+              <a
+                href = {project.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className= {card["tagbutton"]}
+              >
+                GitHub
+              </a>
+
+
+              {project.website && (
+                <a
+                  href= {project.website}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className= {card["tagbutton"]}
+                >
+                  Website
+                </a>
+              )}
+              </div>
+
             </div>
 
           </div>
