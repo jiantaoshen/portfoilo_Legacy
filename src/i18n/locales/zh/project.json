@@ -1,0 +1,67 @@
+{
+    "projects": "个人项目",
+    "myprojects": [
+        {
+            "id": 1,
+            "slug": "portfolio-website",
+            "title": "个人作品集网站",
+            "image": "/projectImages/portfolio.png",
+            "description": "使用 React 构建的个人作品集网站，部署于 Vercel。采用响应式设计和平滑滚动效果，并展示个人项目，同时提供 GitHub 和在线网站链接。",
+            "tags": ["Frontend", "React (Vite, React Router)", "TypeScript", "Tailwind CSS","Vercel"],
+            "github": "https://github.com/jiantaoshen/portfoilo",
+            "website": "https://portfoilo-brown-psi.vercel.app"
+        },
+        {
+            "id": 2,
+            "slug": "SmartAssetTrackingSystem",
+            "title": "智能资产追踪系统",
+            "image": "/projectImages/smart-asset-tracking-system.webp",
+            "description": "用于追踪公司资产（电脑和手机）的小型控制台应用程序。",
+            "tags": ["Backend", "C#", ".NET", "Entity Framework Core", "SQL Local Server"],
+            "github": "https://github.com/jiantaoshen/SmartAssetTrackingSystem",
+            "website": ""
+        },
+        {
+            "id": 3,
+            "slug": "CineScope",
+            "title": "CineScope",
+            "image": "/projectImages/cinescope.webp",
+            "description": "基于 ASP.NET Core MVC 构建的电影目录 Web 应用程序，具备身份验证、基于角色的授权、电影管理、搜索、筛选以及响应式设计功能。",
+            "tags": [
+            "Full Stack",
+            "ASP.NET Core MVC",
+            "C#",
+            ".NET",
+            "Entity Framework Core",
+            "SQL Server",
+            "Bootstrap",
+            "Role-based access control"
+            ],
+            "github": "https://github.com/jiantaoshen/CineScope",
+            "website": ""
+        },
+        {
+            "id": 4,
+            "slug": "LightManager",
+            "title": "LightManager",
+            "image": "/projectImages/LightManager.png",
+            "description": "一个项目管理平台，帮助用户高效管理项目，避免不必要的功能和陡峭的学习曲线。已部署于 Microsoft Azure 和 Neon。",
+            "tags": [
+            "Full Stack",
+            "React (Vite, React Router)",
+            "TypeScript",
+            "Tailwind CSS",
+            "ASP.NET Core Web API",
+            "C#",
+            "Entity Framework Core",
+            "Neon (PostgreSQL)",
+            "ASP.NET Identity",
+            "JWT Authentication",
+            "Role-based Access Control",
+            "微软Azure"
+            ],
+            "github": "https://github.com/jiantaoshen/LightManager",
+            "website": "https://thankful-beach-0211add0f.7.azurestaticapps.net"
+        }
+    ]
+}

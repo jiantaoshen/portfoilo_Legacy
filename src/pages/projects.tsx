@@ -1,15 +1,32 @@
-import { projects } from "../projectsData";
+import { useTranslation } from "react-i18next";
 
 export default function Projects() {
 
+  const { t } = useTranslation("project");
+
+  type Project = {
+    id: number;
+    slug: string;
+    title: string;
+    image: string;
+    description: string;
+    tags: string[];
+    github: string;
+    website?: string;
+  };
+
+  const translatedProjects = t("myprojects", {
+    returnObjects: true,
+  }) as Project[];
+
   return (
     <>
-      <h1>Projects</h1>
+      <h1>{t("projects")}</h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-[var(--space-4)]">
 
         {/* PROJECT CARDS WITH NAVIGATION */}
-        {projects.map((project) => (
+        {translatedProjects.map((project) => (
           <div
             key={project.id}
             className="project-card"
@@ -62,9 +79,7 @@ export default function Projects() {
                 </a>
               )}
               </div>
-
             </div>
-
           </div>
         ))}
       </div>
