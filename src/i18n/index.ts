@@ -5,14 +5,17 @@ import LanguageDetector from "i18next-browser-languagedetector";
 import enCommon from "./locales/en/common.json";
 import enHome from "./locales/en/home.json";
 import enAbout from "./locales/en/about.json";
+import enProject from "./locales/en/project.json";
 
 import zhCommon from "./locales/zh/common.json";
 import zhHome from "./locales/zh/home.json";
 import zhAbout from "./locales/zh/about.json";
+import zhProject from "./locales/zh/project.json";
 
 import svCommon from "./locales/sv/common.json";
 import svHome from "./locales/sv/home.json";
 import svAbout from "./locales/sv/about.json";
+import svProject from "./locales/sv/project.json";
 
 
 i18n
@@ -24,19 +27,22 @@ i18n
       en: {
         common: enCommon,
         home: enHome,
-        about: enAbout
+        about: enAbout,
+        project: enProject
       },
 
       sv: {
         common: svCommon,
         home: svHome,
-        about: svAbout
+        about: svAbout,
+        project: svProject
       },
 
       zh: {
         common: zhCommon,
         home: zhHome,
-        about: zhAbout
+        about: zhAbout,
+        project: zhProject
       }
     },
 

@@ -40,5 +40,4 @@ This structure makes the project easier to maintain and navigate. When updates a
 `App.tsx` is used as the main routing component, while global stylesheets called `theme.css` and `global.css` manages the overall website theme and styling.
 
 ## Future Improvements
-- Show projects in different languague on the project page
 - Personal Blog

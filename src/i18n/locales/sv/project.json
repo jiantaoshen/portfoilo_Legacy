@@ -1,0 +1,67 @@
+{
+    "projects": "Projekt",
+    "myprojects": [
+        {
+            "id": 1,
+            "slug": "portfolio-website",
+            "title": "Portfolio-webbplats",
+            "image": "/projectImages/portfolio.png",
+            "description": "Personlig portfolio byggd med React. Driftsatt på Vercel. Har en responsiv design, smidig scrollning och visar upp projekt med länkar till GitHub och live-webbplatser.",
+            "tags": ["Frontend", "React (Vite, React Router)", "TypeScript", "Tailwind CSS","Vercel"],
+            "github": "https://github.com/jiantaoshen/portfoilo",
+            "website": "https://portfoilo-brown-psi.vercel.app"
+        },
+        {
+            "id": 2,
+            "slug": "SmartAssetTrackingSystem",
+            "title": "Smart system för tillgångsspårning",
+            "image": "/projectImages/smart-asset-tracking-system.webp",
+            "description": "Litet konsolprogram för att spåra företagets tillgångar (datorer och telefoner). ",
+            "tags": ["Backend", "C#", ".NET", "Entity Framework Core", "SQL Local Server"],
+            "github": "https://github.com/jiantaoshen/SmartAssetTrackingSystem",
+            "website": ""
+        },
+        {
+            "id": 3,
+            "slug": "CineScope",
+            "title": "CineScope",
+            "image": "/projectImages/cinescope.webp",
+            "description": "Webbapplikation för filmkatalog byggd med ASP.NET Core MVC med autentisering, rollbaserad behörighetskontroll, filmhantering, sökning, filtrering och responsiv design.",
+            "tags": [
+            "Full Stack",
+            "ASP.NET Core MVC",
+            "C#",
+            ".NET",
+            "Entity Framework Core",
+            "SQL Server",
+            "Bootstrap",
+            "Role-based access control"
+            ],
+            "github": "https://github.com/jiantaoshen/CineScope",
+            "website": ""
+        },
+        {
+            "id": 4,
+            "slug": "LightManager",
+            "title": "LightManager",
+            "image": "/projectImages/LightManager.png",
+            "description": "En projektledningsplattform som hjälper användare att hantera projekt effektivt utan onödiga funktioner eller en brant inlärningskurva. Driftsatt på Microsoft Azure och Neon.",
+            "tags": [
+            "Full Stack",
+            "React (Vite, React Router)",
+            "TypeScript",
+            "Tailwind CSS",
+            "ASP.NET Core Web API",
+            "C#",
+            "Entity Framework Core",
+            "Neon (PostgreSQL)",
+            "ASP.NET Identity",
+            "JWT Authentication",
+            "Role-based Access Control",
+            "Microsoft Azure"
+            ],
+            "github": "https://github.com/jiantaoshen/LightManager",
+            "website": "https://thankful-beach-0211add0f.7.azurestaticapps.net"
+            }
+    ]
+}
