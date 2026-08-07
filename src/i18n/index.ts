@@ -6,13 +6,13 @@ import enCommon from "./locales/en/common.json";
 import enHome from "./locales/en/home.json";
 import enAbout from "./locales/en/about.json";
 
-import cnCommon from "./locales/cn/common.json";
-import cnHome from "./locales/cn/home.json";
-import cnAbout from "./locales/cn/about.json";
+import zhCommon from "./locales/zh/common.json";
+import zhHome from "./locales/zh/home.json";
+import zhAbout from "./locales/zh/about.json";
 
-import seCommon from "./locales/se/common.json";
-import seHome from "./locales/se/home.json";
-import seAbout from "./locales/se/about.json";
+import svCommon from "./locales/sv/common.json";
+import svHome from "./locales/sv/home.json";
+import svAbout from "./locales/sv/about.json";
 
 
 i18n
@@ -27,16 +27,16 @@ i18n
         about: enAbout
       },
 
-      se: {
-        common: seCommon,
-        home: seHome,
-        about: seAbout
+      sv: {
+        common: svCommon,
+        home: svHome,
+        about: svAbout
       },
 
-      cn: {
-        common: cnCommon,
-        home: cnHome,
-        about: cnAbout
+      zh: {
+        common: zhCommon,
+        home: zhHome,
+        about: zhAbout
       }
     },
 

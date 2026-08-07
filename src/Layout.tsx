@@ -45,9 +45,9 @@ export default function Layout() {
               value={i18n.language}
               onChange={changeLanguage}
             >
-              <option value="cn">🇨🇳 中文</option>
+              <option value="zh">🇨🇳 中文</option>
               <option value="en">🇺🇸 English</option>
-              <option value="se">🇸🇪 Svenska</option>
+              <option value="sv">🇸🇪 Svenska</option>
 
             </select>
           </div>
