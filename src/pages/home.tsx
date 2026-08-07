@@ -1,11 +1,26 @@
 import { useNavigate } from "react-router-dom";
-import { projects } from "../projectsData";
 import { useTranslation } from "react-i18next";
 
 export default function Home() {
   const navigate = useNavigate();
   const { t } = useTranslation("home");
-  
+  const { t: tProject } = useTranslation("project");
+
+  type Project = {
+    id: number;
+    slug: string;
+    title: string;
+    image: string;
+    description: string;
+    tags: string[];
+    github: string;
+    website?: string;
+  };
+
+  const translatedProjects = tProject("myprojects", {
+    returnObjects: true,
+  }) as Project[];
+
   return (
     <>
       {/* HERO CONTENT */}
@@ -35,7 +50,7 @@ export default function Home() {
           <h3>{t("showcase")}</h3>
 
         {/* PROJECT CARDS WITH NAVIGATION */}
-        {projects.slice(-1).map((project) => (
+        {translatedProjects.slice(-1).map((project) => (
           <div
             key={project.id}
             className= "project-card"
