@@ -1,0 +1,51 @@
+{
+    "about": "自我介绍",
+    "description": "我是一名全栈开发者，专注于构建高效、可扩展的网络应用程序。我对技术充满热情，喜欢学习新技术并将其应用于实际项目中。",
+    "skills": "技能",
+    "frontend": "前端",
+    "backend": "后端",
+    "ML": "机器学习与人工智能",
+    "tools": "工具与平台",
+    "Languages": "语言",
+    "education": "教育背景",
+    "frontendSkills": [
+        "JavaScript / TypeScript",
+        "React (Vite, React Router)",
+        "Tailwind CSS",
+        "HTML / CSS"
+    ],
+    "backendSkills": [
+        "C# / .NET",
+        "SQL",
+        "Entity Framework Core"
+    ],
+    "toolsSkills": [
+        "Git / Github",
+        "Vercel",
+        "Microsoft Azure"
+    ],
+    "MLSkills": [
+        "Python",
+        "TensorFlow",
+        "PyTorch"
+    ],
+    "languagesSkills": [
+        "中文 (母语)",
+        "瑞典语 (B2)",
+        "英语 (B2)"
+    ],
+    "educationDetails": [
+        {
+            "title": "Web development course, Lexicon AB (2026 3月- 至今)",
+            "description": "学习网络应用程序和云服务的开发。"
+        },
+        {
+            "title": "Labor market activities + language courses (2024 7月- 2026 3月)",
+            "description": "参加各种活动以提高就业能力和语言技能。"
+        },
+        {
+            "title": "Master of Science in Engineering (Robotics), Mälardalen University (2019 9月- 2024 7月)",
+            "description": "学习机器人技术、嵌入式系统、机器学习和人工智能。"
+        }
+    ]
+}

@@ -14,9 +14,9 @@ export const projects: Project[] = [
     id: 1,
     slug: "portfolio-website",
     title: "Portfolio Website",
-    image: "/projectImages/portfolio.webp",
-    description: "Personal portfolio built with React.",
-    tags: ["Frontend", "React (Vite, React Router)", "TypeScript", "Tailwind CSS","CSS Modules","Vercel"],
+    image: "/projectImages/portfolio.png",
+    description: "Personal portfolio built with React. Deployed on Vercel. Features responsive design, smooth scrolling, and showcases projects with links to GitHub and live websites.",
+    tags: ["Frontend", "React (Vite, React Router)", "TypeScript", "Tailwind CSS","Vercel"],
     github: "https://github.com/jiantaoshen/portfoilo",
     website: "https://portfoilo-brown-psi.vercel.app"
   },
@@ -54,7 +54,7 @@ export const projects: Project[] = [
     slug: "LightManager",
     title: "LightManger",
     image: "/projectImages/LightManager.png",
-    description: "A project manager platform for users to manage projects effectively without unnecessary features or a steep learning curve.",
+    description: "A project manager platform for users to manage projects effectively without unnecessary features or a steep learning curve. Deployed on Microsoft Azure and Neon.",
     tags: [
       "Full Stack",
       "React (Vite, React Router)",
@@ -63,10 +63,11 @@ export const projects: Project[] = [
       "ASP.NET Core Web API",
       "C#",
       "Entity Framework Core",
-      "PostgreSQL",
+      "Neon (PostgreSQL)",
       "ASP.NET Identity",
       "JWT Authentication",
-      "Role-based Access Control"
+      "Role-based Access Control",
+      "Microsoft Azure",
     ],
     github: "https://github.com/jiantaoshen/LightManager",
     website: "https://thankful-beach-0211add0f.7.azurestaticapps.net"
