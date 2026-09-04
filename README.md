@@ -1,4 +1,8 @@
-# Personal CV Website (React)
+# Personal CV Website (Legacy)
+This project is going to delete at the end of 2026 to avoid misleading.
+
+## New portfolio
+This is old project. Please check my newest portfolio: https://github.com/jiantaoshen/portfolio-dev 
 
 ## Description
 My personal portfolio website built with React. It showcases my projects, skills, and background through a clean and responsive user interface.
